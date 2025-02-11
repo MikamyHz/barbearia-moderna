@@ -1,0 +1,27 @@
+.main-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: url("/assets/images/pages/index/home-hero.png") no-repeat center;
+  height: 100vh;
+}
+
+.main-hero span {
+  font-family: var(--font-1);
+  font-size: var(--text-sm);
+}
+
+.main-hero h1 {
+  margin: 8px 0;
+}
+
+.main-hero span,
+p {
+  color: var(--light-1);
+}
+
+.main-hero .btn {
+  margin-top: 24px;
+}

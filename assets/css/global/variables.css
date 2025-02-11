@@ -1,0 +1,40 @@
+/* Font Family */
+
+:root {
+  --font-1: "Prata", serif;
+  --font-2: "lato", sans-serif;
+}
+
+/* Headline Sizes */
+
+:root {
+  --h1: 48px;
+  --h2: 36px;
+  --h3: 32px;
+  --h4: 24px;
+  --h5: 20px;
+  --h6: 16px;
+}
+
+/* Body Sizes */
+
+:root {
+  --text-sm: 14px;
+}
+
+/* Colors */
+
+:root {
+  --white: #FFF;
+  --light-1: #D9D9D9;
+  --light-2: #B0B0B0;
+  --light-3: #888888;
+
+  --dark-1: #222222;
+  --dark-2: #373737;
+  --dark-3: #5F5F5F;
+
+  --black-1: #0E0E0E;
+  --main: #9A7D63;
+
+}

@@ -1,0 +1,22 @@
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 200px 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 40px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  background: var(--main);
+  letter-spacing: 2px;
+  color: var(--white);
+  transition: all .3s;
+}
+
+.btn:hover {
+  background: var(--black-1);
+}

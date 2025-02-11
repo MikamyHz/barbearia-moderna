@@ -1,0 +1,9 @@
+.generic-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url("/assets/images/global/generic-hero.png") no-repeat center;
+  text-align: center;
+}
