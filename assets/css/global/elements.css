@@ -1,8 +1,10 @@
 .container {
   max-width: 1110px;
   margin: 0 auto;
-  padding: 200px 5px;
+  padding: 120px 5px;
 }
+
+/* /// Botoes /// */
 
 .btn {
   display: inline-block;
@@ -14,9 +16,55 @@
   background: var(--main);
   letter-spacing: 2px;
   color: var(--white);
-  transition: all .3s;
 }
 
 .btn:hover {
-  background: var(--black-1);
+  background: var(--dark-1);
+  transition: var(--all-300);
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* /// Títulos Centralizados /// */
+
+.titulo-center {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.titulo-center h2 {
+  margin-bottom: 16px;
+}
+
+.titulo-center p {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* /// Icones de Redes Sociais /// */
+
+.redes-sociais {
+  display: flex;
+  gap: 16px;
+}
+
+.redes-sociais a {
+  display: inline-block;
+}
+
+.redes-sociais i {
+  font-size: 20px;
+  background: var(--dark-1);
+  padding: 6px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.redes-sociais i:hover {
+  background: var(--main);
+  color: var(--light-1);
+  transition: var(--all-300);
 }

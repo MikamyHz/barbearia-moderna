@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background: url("/assets/images/pages/index/home-hero.png") no-repeat center;
+  background: url("/assets/images/pages/index/hero-bg.png") no-repeat center;
   height: 100vh;
 }
 
@@ -15,11 +15,6 @@
 
 .main-hero h1 {
   margin: 8px 0;
-}
-
-.main-hero span,
-p {
-  color: var(--light-1);
 }
 
 .main-hero .btn {

@@ -1,0 +1,11 @@
+.sobre-nos {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sobre-nos p {
+  max-width: 500px;
+  margin: 16px 0 24px 0;
+}

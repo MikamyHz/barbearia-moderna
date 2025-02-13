@@ -38,3 +38,11 @@
   --main: #9A7D63;
 
 }
+
+
+
+/* Transicios */
+
+:root {
+  --all-300: all 300ms ease;
+}

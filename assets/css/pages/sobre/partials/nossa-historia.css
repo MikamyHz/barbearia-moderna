@@ -1,0 +1,11 @@
+.nossa-historia {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.nossa-historia p {
+  max-width: 500px;
+  margin-top: 16px;
+}

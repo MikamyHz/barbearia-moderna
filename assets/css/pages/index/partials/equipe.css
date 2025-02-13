@@ -1,0 +1,42 @@
+.equipe-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 30px;
+
+}
+
+.equipe-img {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.equipe-img img:hover {
+  transform: scale(1.1);
+  transition: var(--all-300);
+  /* filter: saturate(0); */
+}
+
+.equipe-card img {
+  border-top-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.equipe-info {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.equipe-infos h5 {
+  margin-bottom: 8px;
+}
+
+.equipe-info span {
+  display: inline-block;
+  font-size: var(--h6);
+  margin-bottom: 16px;
+}
+
+.equipe-info .redes-sociais {
+  justify-content: center;
+}

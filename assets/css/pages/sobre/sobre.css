@@ -1,1 +1,6 @@
 @import"/assets/css/global/global.css";
+
+
+@import"/assets/css/global/components/generic-hero.css";
+@import"/assets/css/pages/sobre/partials/nossa-historia.css";
+@import"/assets/css/pages/sobre/partials/nossa-filosofia.css";

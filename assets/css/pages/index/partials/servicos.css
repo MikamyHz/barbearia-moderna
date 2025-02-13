@@ -1,0 +1,22 @@
+.servicos-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.servico-card {
+  background: var(--dark-1);
+  padding: 50px 16px;
+  border-top-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.servico-card img {
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+.servico-card p {
+  margin-top: 8px;
+}
